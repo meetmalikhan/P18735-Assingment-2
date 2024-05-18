@@ -1,0 +1,1161 @@
+{
+    "customers": [
+      {
+        "_id": "C001",
+        "name": "John Doe",
+        "email": "john.doe@gmail.com",
+        "address": "10 Downing Street, London, SW1A 2AA",
+        "phoneNumber": "+44 20 7925 0918",
+        "registrationDate": "2023-04-01T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P001", "quantity": 2, "productName": "Organic Apples" },
+          { "productId": "P002", "quantity": 1, "productName": "Whole Wheat Bread" }
+        ],
+        "userAccount": {
+          "_id": "UA001",
+          "username": "john_doe",
+          "email": "john.doe@gmail.com",
+          "password": "JohnDoe#2023!",
+          "role": "customer"
+        }
+      },
+      {
+        "_id": "C002",
+        "name": "Jane Smith",
+        "email": "jane.smith@yahoo.com",
+        "address": "221B Baker Street, London, NW1 6XE",
+        "phoneNumber": "+44 20 7935 8901",
+        "registrationDate": "2023-05-15T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P003", "quantity": 3, "productName": "Free Range Eggs" },
+          { "productId": "P004", "quantity": 1, "productName": "Almond Milk" }
+        ],
+        "userAccount": {
+          "_id": "UA002",
+          "username": "jane_smith",
+          "email": "jane.smith@yahoo.com",
+          "password": "JaneSmith#2023!",
+          "role": "customer"
+        }
+      },
+      {
+        "_id": "C003",
+        "name": "Emily Johnson",
+        "email": "emily.johnson@hotmail.com",
+        "address": "1600 Pennsylvania Avenue NW, Washington, DC 20500",
+        "phoneNumber": "+44 20 7321 2222",
+        "registrationDate": "2023-06-10T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P005", "quantity": 1, "productName": "Broccoli" },
+          { "productId": "P006", "quantity": 2, "productName": "Cheddar Cheese" }
+        ],
+        "userAccount": {
+          "_id": "UA003",
+          "username": "emily_johnson",
+          "email": "emily.johnson@hotmail.com",
+          "password": "EmilyJohnson#2023!",
+          "role": "customer"
+        }
+      },
+      {
+        "_id": "C004",
+        "name": "Michael Brown",
+        "email": "michael.brown@gmail.com",
+        "address": "1 Infinite Loop, Cupertino, CA 95014",
+        "phoneNumber": "+44 20 7214 1234",
+        "registrationDate": "2023-07-20T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P007", "quantity": 5, "productName": "Chicken Breast" },
+          { "productId": "P008", "quantity": 2, "productName": "Orange Juice" }
+        ],
+        "userAccount": {
+          "_id": "UA004",
+          "username": "michael_brown",
+          "email": "michael.brown@gmail.com",
+          "password": "MichaelBrown#2023!",
+          "role": "customer"
+        }
+      },
+      {
+        "_id": "C005",
+        "name": "Sarah Davis",
+        "email": "sarah.davis@gmail.com",
+        "address": "742 Evergreen Terrace, Springfield, IL 62704",
+        "phoneNumber": "+44 20 8899 5555",
+        "registrationDate": "2023-08-30T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P009", "quantity": 4, "productName": "Greek Yogurt" },
+          { "productId": "P010", "quantity": 1, "productName": "Salmon Fillet" }
+        ],
+        "userAccount": {
+          "_id": "UA005",
+          "username": "sarah_davis",
+          "email": "sarah.davis@gmail.com",
+          "password": "SarahDavis#2023!",
+          "role": "customer"
+        }
+      },
+      {
+        "_id": "C006",
+        "name": "David Wilson",
+        "email": "david.wilson@yahoo.com",
+        "address": "30 St Mary Axe, London, EC3A 8BF",
+        "phoneNumber": "+44 20 7071 5000",
+        "registrationDate": "2023-09-05T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P011", "quantity": 2, "productName": "Milk" },
+          { "productId": "P012", "quantity": 1, "productName": "Butter" }
+        ],
+        "userAccount": {
+          "_id": "UA006",
+          "username": "david_wilson",
+          "email": "david.wilson@yahoo.com",
+          "password": "DavidWilson#2023!",
+          "role": "customer"
+        }
+      },
+      {
+        "_id": "C007",
+        "name": "Laura Taylor",
+        "email": "laura.taylor@hotmail.com",
+        "address": "50 Bedford Square, London, WC1B 3DP",
+        "phoneNumber": "+44 20 7631 6000",
+        "registrationDate": "2023-10-12T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P013", "quantity": 1, "productName": "Yogurt" },
+          { "productId": "P014", "quantity": 3, "productName": "Cereal" }
+        ],
+        "userAccount": {
+          "_id": "UA007",
+          "username": "laura_taylor",
+          "email": "laura.taylor@hotmail.com",
+          "password": "LauraTaylor#2023!",
+          "role": "customer"
+        }
+      },
+      {
+        "_id": "C008",
+        "name": "Robert Evans",
+        "email": "robert.evans@gmail.com",
+        "address": "100 Westminster Bridge Road, London, SE1 7UT",
+        "phoneNumber": "+44 20 7737 5800",
+        "registrationDate": "2023-11-01T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P015", "quantity": 2, "productName": "Honey" },
+          { "productId": "P016", "quantity": 1, "productName": "Jam" }
+        ],
+        "userAccount": {
+          "_id": "UA008",
+          "username": "robert_evans",
+          "email": "robert.evans@gmail.com",
+          "password": "RobertEvans#2023!",
+          "role": "customer"
+        }
+      },
+      {
+        "_id": "C009",
+        "name": "Emma Thomas",
+        "email": "emma.thomas@gmail.com",
+        "address": "200 Oxford Street, London, W1D 1NU",
+        "phoneNumber": "+44 20 7935 3777",
+        "registrationDate": "2023-12-03T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P017", "quantity": 4, "productName": "Oats" },
+          { "productId": "P018", "quantity": 2, "productName": "Granola" }
+        ],
+        "userAccount": {
+          "_id": "UA009",
+          "username": "emma_thomas",
+          "email": "emma.thomas@gmail.com",
+          "password": "EmmaThomas#2023!",
+          "role": "customer"
+        }
+      },
+      {
+        "_id": "C010",
+        "name": "William Harris",
+        "email": "william.harris@yahoo.com",
+        "address": "10 King's Road, London, SW3 4QN",
+        "phoneNumber": "+44 20 7349 5000",
+        "registrationDate": "2024-01-10T00:00:00Z",
+        "purchasedProducts": [
+          { "productId": "P019", "quantity": 3, "productName": "Chicken" },
+          { "productId": "P020", "quantity": 1, "productName": "Beef" }
+        ],
+        "userAccount": {
+          "_id": "UA010",
+          "username": "william_harris",
+          "email": "william.harris@yahoo.com",
+          "password": "WilliamHarris#2023!",
+          "role": "customer"
+        }
+      }
+    ],
+    "suppliers": [
+      {
+        "_id": "S001",
+        "name": "Green Valley Farms",
+        "turnover": 500000,
+        "numberOfStores": 5,
+        "numberOfEmployees": 50,
+        "products": [
+          { "productId": "P001", "productName": "Organic Apples" }
+        ],
+        "employees": [
+          {
+            "_id": "E001",
+            "name": "Alice Johnson",
+            "role": "Sales Manager",
+            "email": "alice.johnson@example.com",
+            "phoneNumber": "+44 20 7123 4567"
+          }
+        ]
+      },
+      {
+        "_id": "S002",
+        "name": "Baker's Delight",
+        "turnover": 300000,
+        "numberOfStores": 3,
+        "numberOfEmployees": 30,
+        "products": [
+          { "productId": "P002", "productName": "Whole Wheat Bread" }
+        ],
+        "employees": [
+          {
+            "_id": "E002",
+            "name": "Bob Smith",
+            "role": "Warehouse Supervisor",
+            "email": "bob.smith@example.com",
+            "phoneNumber": "+44 20 7123 4568"
+          }
+        ]
+      },
+      {
+        "_id": "S003",
+        "name": "Sunny Meadows Dairy",
+        "turnover": 800000,
+        "numberOfStores": 10,
+        "numberOfEmployees": 80,
+        "products": [
+          { "productId": "P003", "productName": "Free Range Eggs" }
+        ],
+        "employees": [
+          {
+            "_id": "E003",
+            "name": "Carol Davis",
+            "role": "Logistics Coordinator",
+            "email": "carol.davis@example.com",
+            "phoneNumber": "+44 20 7123 4569"
+          }
+        ]
+      },
+      {
+        "_id": "S004",
+        "name": "Nutty Naturals",
+        "turnover": 400000,
+        "numberOfStores": 4,
+        "numberOfEmployees": 40,
+        "products": [
+          { "productId": "P004", "productName": "Almond Milk" }
+        ],
+        "employees": [
+          {
+            "_id": "E004",
+            "name": "David Lee",
+            "role": "Quality Control Inspector",
+            "email": "david.lee@example.com",
+            "phoneNumber": "+44 20 7123 4570"
+          }
+        ]
+      },
+      {
+        "_id": "S005",
+        "name": "Veggie Delights",
+        "turnover": 600000,
+        "numberOfStores": 6,
+        "numberOfEmployees": 60,
+        "products": [
+          { "productId": "P005", "productName": "Broccoli" }
+        ],
+        "employees": [
+          {
+            "_id": "E005",
+            "name": "Eva Brown",
+            "role": "Operations Manager",
+            "email": "eva.brown@example.com",
+            "phoneNumber": "+44 20 7123 4571"
+          }
+        ]
+      },
+      {
+        "_id": "S006",
+        "name": "Cheese Heaven",
+        "turnover": 700000,
+        "numberOfStores": 7,
+        "numberOfEmployees": 70,
+        "products": [
+          { "productId": "P006", "productName": "Cheddar Cheese" }
+        ],
+        "employees": [
+          {
+            "_id": "E006",
+            "name": "Frank Wilson",
+            "role": "Procurement Specialist",
+            "email": "frank.wilson@example.com",
+            "phoneNumber": "+44 20 7123 4572"
+          }
+        ]
+      },
+      {
+        "_id": "S007",
+        "name": "Farm Fresh Meats",
+        "turnover": 900000,
+        "numberOfStores": 8,
+        "numberOfEmployees": 90,
+        "products": [
+          { "productId": "P007", "productName": "Chicken Breast" }
+        ],
+        "employees": [
+          {
+            "_id": "E007",
+            "name": "Grace Taylor",
+            "role": "Inventory Manager",
+            "email": "grace.taylor@example.com",
+            "phoneNumber": "+44 20 7123 4573"
+          }
+        ]
+      },
+      {
+        "_id": "S008",
+        "name": "Citrus Grove",
+        "turnover": 350000,
+        "numberOfStores": 3,
+        "numberOfEmployees": 35,
+        "products": [
+          { "productId": "P008", "productName": "Orange Juice" }
+        ],
+        "employees": [
+          {
+            "_id": "E008",
+            "name": "Henry Martin",
+            "role": "Customer Service Representative",
+            "email": "henry.martin@example.com",
+            "phoneNumber": "+44 20 7123 4574"
+          }
+        ]
+      },
+      {
+        "_id": "S009",
+        "name": "Yogurt Bliss",
+        "turnover": 450000,
+        "numberOfStores": 5,
+        "numberOfEmployees": 45,
+        "products": [
+          { "productId": "P009", "productName": "Greek Yogurt" }
+        ],
+        "employees": [
+          {
+            "_id": "E009",
+            "name": "Ivy Walker",
+            "role": "Marketing Coordinator",
+            "email": "ivy.walker@example.com",
+            "phoneNumber": "+44 20 7123 4575"
+          }
+        ]
+      },
+      {
+        "_id": "S010",
+        "name": "Ocean's Catch",
+        "turnover": 1000000,
+        "numberOfStores": 10,
+        "numberOfEmployees": 100,
+        "products": [
+          { "productId": "P010", "productName": "Salmon Fillet" }
+        ],
+        "employees": [
+          {
+            "_id": "E010",
+            "name": "Jack Harris",
+            "role": "Supply Chain Analyst",
+            "email": "jack.harris@example.com",
+            "phoneNumber": "+44 20 7123 4576"
+          }
+        ]
+      }
+    ],
+    "retailers": [
+      {
+        "_id": "R001",
+        "name": "Local Fresh Market",
+        "location": "123 High Street, London, W1A 1AA",
+        "openingHours": "08:00-20:00",
+        "products": [
+          { "productId": "P001", "productName": "Organic Apples" },
+          { "productId": "P003", "productName": "Free Range Eggs" },
+          { "productId": "P007", "productName": "Chicken Breast" }
+        ]
+      },
+      {
+        "_id": "R002",
+        "name": "Green Grocers",
+        "location": "456 Market Street, London, E1 6AN",
+        "openingHours": "09:00-21:00",
+        "products": [
+          { "productId": "P001", "productName": "Organic Apples" },
+          { "productId": "P004", "productName": "Almond Milk" },
+          { "productId": "P009", "productName": "Greek Yogurt" }
+        ]
+      },
+      {
+        "_id": "R003",
+        "name": "Healthy Eats",
+        "location": "789 King Road, London, SW3 5UD",
+        "openingHours": "07:00-19:00",
+        "products": [
+          { "productId": "P002", "productName": "Whole Wheat Bread" },
+          { "productId": "P006", "productName": "Cheddar Cheese" }
+        ]
+      },
+      {
+        "_id": "R004",
+        "name": "Daily Essentials",
+        "location": "321 Queen Street, London, NW1 5DB",
+        "openingHours": "10:00-22:00",
+        "products": [
+          { "productId": "P003", "productName": "Free Range Eggs" },
+          { "productId": "P008", "productName": "Orange Juice" }
+        ]
+      },
+      {
+        "_id": "R005",
+        "name": "Organic Foods",
+        "location": "654 Princess Avenue, London, SW1W 0NY",
+        "openingHours": "09:00-18:00",
+        "products": [
+          { "productId": "P005", "productName": "Broccoli" },
+          { "productId": "P010", "productName": "Salmon Fillet" }
+        ]
+      },
+      {
+        "_id": "R006",
+        "name": "Cheese and More",
+        "location": "987 Abbey Road, London, NW8 9AY",
+        "openingHours": "08:00-17:00",
+        "products": [
+          { "productId": "P006", "productName": "Cheddar Cheese" }
+        ]
+      },
+      {
+        "_id": "R007",
+        "name": "Meat Masters",
+        "location": "159 Baker Street, London, NW1 6XE",
+        "openingHours": "08:00-19:00",
+        "products": [
+          { "productId": "P007", "productName": "Chicken Breast" }
+        ]
+      },
+      {
+        "_id": "R008",
+        "name": "Yogurt Heaven",
+        "location": "753 Fleet Street, London, EC4Y 1HT",
+        "openingHours": "07:00-20:00",
+        "products": [
+          { "productId": "P009", "productName": "Greek Yogurt" }
+        ]
+      },
+      {
+        "_id": "R009",
+        "name": "Fish Market",
+        "location": "852 London Bridge Road, London, SE1 9DD",
+        "openingHours": "06:00-18:00",
+        "products": [
+          { "productId": "P010", "productName": "Salmon Fillet" }
+        ]
+      },
+      {
+        "_id": "R010",
+        "name": "Bread Basket",
+        "location": "147 Piccadilly Circus, London, W1J 9LL",
+        "openingHours": "08:00-20:00",
+        "products": [
+          { "productId": "P002", "productName": "Whole Wheat Bread" }
+        ]
+      }
+    ],
+    "markets": [
+      {
+        "_id": "M001",
+        "name": "Borough Market",
+        "location": "8 Southwark Street, London, SE1 1TL",
+        "marketDay": "Monday-Saturday",
+        "productsAvailable": [
+          { "productId": "P001", "productName": "Organic Apples" },
+          { "productId": "P005", "productName": "Broccoli" },
+          { "productId": "P010", "productName": "Salmon Fillet" }
+        ]
+      },
+      {
+        "_id": "M002",
+        "name": "Camden Market",
+        "location": "Camden Lock Place, London, NW1 8AF",
+        "marketDay": "Everyday",
+        "productsAvailable": [
+          { "productId": "P002", "productName": "Whole Wheat Bread" },
+          { "productId": "P003", "productName": "Free Range Eggs" },
+          { "productId": "P004", "productName": "Almond Milk" }
+        ]
+      },
+      {
+        "_id": "M003",
+        "name": "Portobello Road Market",
+        "location": "Portobello Road, London, W11 1AN",
+        "marketDay": "Saturday",
+        "productsAvailable": [
+          { "productId": "P001", "productName": "Organic Apples" },
+          { "productId": "P006", "productName": "Cheddar Cheese" },
+          { "productId": "P007", "productName": "Chicken Breast" }
+        ]
+      },
+      {
+        "_id": "M004",
+        "name": "Old Spitalfields Market",
+        "location": "16 Horner Square, London, E1 6EW",
+        "marketDay": "Everyday",
+        "productsAvailable": [
+          { "productId": "P004", "productName": "Almond Milk" },
+          { "productId": "P005", "productName": "Broccoli" },
+          { "productId": "P008", "productName": "Orange Juice" }
+        ]
+      },
+      {
+        "_id": "M005",
+        "name": "Covent Garden Market",
+        "location": "The Piazza, London, WC2E 8RF",
+        "marketDay": "Monday-Saturday",
+        "productsAvailable": [
+          { "productId": "P002", "productName": "Whole Wheat Bread" },
+          { "productId": "P003", "productName": "Free Range Eggs" },
+          { "productId": "P009", "productName": "Greek Yogurt" }
+        ]
+      },
+      {
+        "_id": "M006",
+        "name": "Greenwich Market",
+        "location": "5B Greenwich Market, London, SE10 9HZ",
+        "marketDay": "Wednesday-Sunday",
+        "productsAvailable": [
+          { "productId": "P001", "productName": "Organic Apples" },
+          { "productId": "P006", "productName": "Cheddar Cheese" },
+          { "productId": "P010", "productName": "Salmon Fillet" }
+        ]
+      },
+      {
+        "_id": "M007",
+        "name": "Brick Lane Market",
+        "location": "91 Brick Lane, London, E1 6QR",
+        "marketDay": "Sunday",
+        "productsAvailable": [
+          { "productId": "P007", "productName": "Chicken Breast" },
+          { "productId": "P008", "productName": "Orange Juice" },
+          { "productId": "P009", "productName": "Greek Yogurt" }
+        ]
+      },
+      {
+        "_id": "M008",
+        "name": "Broadway Market",
+        "location": "Broadway Market, London, E8 4QJ",
+        "marketDay": "Saturday",
+        "productsAvailable": [
+          { "productId": "P002", "productName": "Whole Wheat Bread" },
+          { "productId": "P003", "productName": "Free Range Eggs" },
+          { "productId": "P010", "productName": "Salmon Fillet" }
+        ]
+      },
+      {
+        "_id": "M009",
+        "name": "Maltby Street Market",
+        "location": "41 Maltby Street, London, SE1 3PA",
+        "marketDay": "Saturday-Sunday",
+        "productsAvailable": [
+          { "productId": "P004", "productName": "Almond Milk" },
+          { "productId": "P005", "productName": "Broccoli" },
+          { "productId": "P006", "productName": "Cheddar Cheese" }
+        ]
+      },
+      {
+        "_id": "M010",
+        "name": "Columbia Road Flower Market",
+        "location": "Columbia Road, London, E2 7RG",
+        "marketDay": "Sunday",
+        "productsAvailable": [
+          { "productId": "P001", "productName": "Organic Apples" },
+          { "productId": "P008", "productName": "Orange Juice" },
+          { "productId": "P009", "productName": "Greek Yogurt" }
+        ]
+      }
+    ],
+    "orders": [
+      {
+        "_id": "O001",
+        "customerId": "C001",
+        "retailerId": "R001",
+        "products": [
+          { "productId": "P001", "quantity": 2, "price": 2.50, "productName": "Organic Apples" },
+          { "productId": "P003", "quantity": 1, "price": 3.00, "productName": "Free Range Eggs" }
+        ],
+        "orderDate": "2023-04-10T00:00:00Z",
+        "totalPrice": 8.00
+      },
+      {
+        "_id": "O002",
+        "customerId": "C002",
+        "retailerId": "R002",
+        "products": [
+          { "productId": "P002", "quantity": 3, "price": 1.20, "productName": "Whole Wheat Bread" },
+          { "productId": "P009", "quantity": 1, "price": 3.20, "productName": "Greek Yogurt" }
+        ],
+        "orderDate": "2023-05-20T00:00:00Z",
+        "totalPrice": 6.80
+      },
+      {
+        "_id": "O003",
+        "customerId": "C003",
+        "retailerId": "R003",
+        "products": [
+          { "productId": "P006", "quantity": 2, "price": 4.00, "productName": "Cheddar Cheese" },
+          { "productId": "P007", "quantity": 1, "price": 5.50, "productName": "Chicken Breast" }
+        ],
+        "orderDate": "2023-06-15T00:00:00Z",
+        "totalPrice": 13.50
+      },
+      {
+        "_id": "O004",
+        "customerId": "C004",
+        "retailerId": "R004",
+        "products": [
+          { "productId": "P008", "quantity": 1, "price": 2.30, "productName": "Orange Juice" },
+          { "productId": "P003", "quantity": 1, "price": 3.00, "productName": "Free Range Eggs" }
+        ],
+        "orderDate": "2023-07-25T00:00:00Z",
+        "totalPrice": 5.30
+      },
+      {
+        "_id": "O005",
+        "customerId": "C005",
+        "retailerId": "R005",
+        "products": [
+          { "productId": "P005", "quantity": 4, "price": 1.50, "productName": "Broccoli" },
+          { "productId": "P010", "quantity": 2, "price": 8.00, "productName": "Salmon Fillet" }
+        ],
+        "orderDate": "2023-08-30T00:00:00Z",
+        "totalPrice": 19.00
+      },
+      {
+        "_id": "O006",
+        "customerId": "C006",
+        "retailerId": "R001",
+        "products": [
+          { "productId": "P001", "quantity": 1, "price": 2.50, "productName": "Organic Apples" },
+          { "productId": "P007", "quantity": 3, "price": 5.50, "productName": "Chicken Breast" }
+        ],
+        "orderDate": "2023-09-10T00:00:00Z",
+        "totalPrice": 18.00
+      },
+      {
+        "_id": "O007",
+        "customerId": "C007",
+        "retailerId": "R002",
+        "products": [
+          { "productId": "P004", "quantity": 2, "price": 2.00, "productName": "Almond Milk" },
+          { "productId": "P009", "quantity": 1, "price": 3.20, "productName": "Greek Yogurt" }
+        ],
+        "orderDate": "2023-10-15T00:00:00Z",
+        "totalPrice": 7.20
+      },
+      {
+        "_id": "O008",
+        "customerId": "C008",
+        "retailerId": "R003",
+        "products": [
+          { "productId": "P002", "quantity": 1, "price": 1.20, "productName": "Whole Wheat Bread" },
+          { "productId": "P006", "quantity": 1, "price": 4.00, "productName": "Cheddar Cheese" }
+        ],
+        "orderDate": "2023-11-05T00:00:00Z",
+        "totalPrice": 5.20
+      },
+      {
+        "_id": "O009",
+        "customerId": "C009",
+        "retailerId": "R004",
+        "products": [
+          { "productId": "P008", "quantity": 2, "price": 2.30, "productName": "Orange Juice" },
+          { "productId": "P003", "quantity": 1, "price": 3.00, "productName": "Free Range Eggs" }
+        ],
+        "orderDate": "2023-12-10T00:00:00Z",
+        "totalPrice": 7.60
+      },
+      {
+        "_id": "O010",
+        "customerId": "C010",
+        "retailerId": "R005",
+        "products": [
+          { "productId": "P005", "quantity": 2, "price": 1.50, "productName": "Broccoli" },
+          { "productId": "P010", "quantity": 1, "price": 8.00, "productName": "Salmon Fillet" }
+        ],
+        "orderDate": "2024-01-20T00:00:00Z",
+        "totalPrice": 11.00
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "R001",
+        "customerId": "C001",
+        "productId": "P001",
+        "rating": 5,
+        "comment": "Fresh and delicious apples!",
+        "reviewDate": "2023-04-12T00:00:00Z"
+      },
+      {
+        "_id": "R002",
+        "customerId": "C002",
+        "productId": "P002",
+        "rating": 4,
+        "comment": "Good quality bread.",
+        "reviewDate": "2023-05-22T00:00:00Z"
+      },
+      {
+        "_id": "R003",
+        "customerId": "C003",
+        "productId": "P003",
+        "rating": 5,
+        "comment": "The eggs are very fresh.",
+        "reviewDate": "2023-06-18T00:00:00Z"
+      },
+      {
+        "_id": "R004",
+        "customerId": "C004",
+        "productId": "P004",
+        "rating": 3,
+        "comment": "Almond milk is okay, but a bit expensive.",
+        "reviewDate": "2023-07-27T00:00:00Z"
+      },
+      {
+        "_id": "R005",
+        "customerId": "C005",
+        "productId": "P005",
+        "rating": 4,
+        "comment": "Broccoli is fresh and crisp.",
+        "reviewDate": "2023-08-31T00:00:00Z"
+      },
+      {
+        "_id": "R006",
+        "customerId": "C006",
+        "productId": "P006",
+        "rating": 5,
+        "comment": "Cheddar cheese tastes amazing!",
+        "reviewDate": "2023-09-12T00:00:00Z"
+      },
+      {
+        "_id": "R007",
+        "customerId": "C007",
+        "productId": "P007",
+        "rating": 5,
+        "comment": "Chicken breast is very tender.",
+        "reviewDate": "2023-10-17T00:00:00Z"
+      },
+      {
+        "_id": "R008",
+        "customerId": "C008",
+        "productId": "P008",
+        "rating": 4,
+        "comment": "Orange juice is refreshing.",
+        "reviewDate": "2023-11-08T00:00:00Z"
+      },
+      {
+        "_id": "R009",
+        "customerId": "C009",
+        "productId": "P009",
+        "rating": 5,
+        "comment": "Greek yogurt is thick and creamy.",
+        "reviewDate": "2023-12-12T00:00:00Z"
+      },
+      {
+        "_id": "R010",
+        "customerId": "C010",
+        "productId": "P010",
+        "rating": 4,
+        "comment": "Salmon fillet is fresh and tasty.",
+        "reviewDate": "2024-01-22T00:00:00Z"
+      }
+    ],
+    "supplycontract": [
+      {
+        "_id": "SC001",
+        "supplierId": "S001",
+        "retailerId": "R001",
+        "productId": "P001",
+        "contractTerms": "12-month contract with monthly deliveries",
+        "startDate": "2023-01-01T00:00:00Z",
+        "endDate": "2023-12-31T00:00:00Z"
+      },
+      {
+        "_id": "SC002",
+        "supplierId": "S002",
+        "retailerId": "R002",
+        "productId": "P002",
+        "contractTerms": "6-month contract with bi-weekly deliveries",
+        "startDate": "2023-02-01T00:00:00Z",
+        "endDate": "2023-07-31T00:00:00Z"
+      },
+      {
+        "_id": "SC003",
+        "supplierId": "S003",
+        "retailerId": "R003",
+        "productId": "P003",
+        "contractTerms": "24-month contract with weekly deliveries",
+        "startDate": "2023-03-01T00:00:00Z",
+        "endDate": "2025-02-28T00:00:00Z"
+      },
+      {
+        "_id": "SC004",
+        "supplierId": "S004",
+        "retailerId": "R004",
+        "productId": "P004",
+        "contractTerms": "12-month contract with monthly deliveries",
+        "startDate": "2023-04-01T00:00:00Z",
+        "endDate": "2024-03-31T00:00:00Z"
+      },
+      {
+        "_id": "SC005",
+        "supplierId": "S005",
+        "retailerId": "R005",
+        "productId": "P005",
+        "contractTerms": "18-month contract with bi-weekly deliveries",
+        "startDate": "2023-05-01T00:00:00Z",
+        "endDate": "2024-10-31T00:00:00Z"
+      },
+      {
+        "_id": "SC006",
+        "supplierId": "S006",
+        "retailerId": "R006",
+        "productId": "P006",
+        "contractTerms": "12-month contract with weekly deliveries",
+        "startDate": "2023-06-01T00:00:00Z",
+        "endDate": "2024-05-31T00:00:00Z"
+      },
+      {
+        "_id": "SC007",
+        "supplierId": "S007",
+        "retailerId": "R007",
+        "productId": "P007",
+        "contractTerms": "24-month contract with monthly deliveries",
+        "startDate": "2023-07-01T00:00:00Z",
+        "endDate": "2025-06-30T00:00:00Z"
+        },
+        {
+        "_id": "SC008",
+        "supplierId": "S008",
+        "retailerId": "R008",
+        "productId": "P008",
+        "contractTerms": "6-month contract with weekly deliveries",
+        "startDate": "2023-08-01T00:00:00Z",
+        "endDate": "2024-01-31T00:00:00Z"
+        },
+        {
+        "_id": "SC009",
+        "supplierId": "S009",
+        "retailerId": "R009",
+        "productId": "P009",
+        "contractTerms": "12-month contract with bi-weekly deliveries",
+        "startDate": "2023-09-01T00:00:00Z",
+        "endDate": "2024-08-31T00:00:00Z"
+        },
+        {
+            "_id": "SC010",
+            "supplierId": "S010",
+            "retailerId": "R010",
+            "productId": "P010",
+            "contractTerms": "18-month contract with monthly deliveries",
+            "startDate": "2023-10-01T00:00:00Z",
+            "endDate": "2025-03-31T00:00:00Z"
+          }
+        ],
+        "stock": [
+          {
+            "_id": "ST001",
+            "productId": "P001",
+            "retailerId": "R001",
+            "quantity": 50,
+            "restockThreshold": 10,
+            "lastRestocked": "2023-04-01T00:00:00Z"
+          },
+          {
+            "_id": "ST002",
+            "productId": "P002",
+            "retailerId": "R002",
+            "quantity": 30,
+            "restockThreshold": 5,
+            "lastRestocked": "2023-05-05T00:00:00Z"
+          },
+          {
+            "_id": "ST003",
+            "productId": "P003",
+            "retailerId": "R003",
+            "quantity": 70,
+            "restockThreshold": 15,
+            "lastRestocked": "2023-06-10T00:00:00Z"
+          },
+          {
+            "_id": "ST004",
+            "productId": "P004",
+            "retailerId": "R004",
+            "quantity": 40,
+            "restockThreshold": 10,
+            "lastRestocked": "2023-07-15T00:00:00Z"
+          },
+          {
+            "_id": "ST005",
+            "productId": "P005",
+            "retailerId": "R005",
+            "quantity": 20,
+            "restockThreshold": 5,
+            "lastRestocked": "2023-08-20T00:00:00Z"
+          },
+          {
+            "_id": "ST006",
+            "productId": "P006",
+            "retailerId": "R006",
+            "quantity": 60,
+            "restockThreshold": 10,
+            "lastRestocked": "2023-09-25T00:00:00Z"
+          },
+          {
+            "_id": "ST007",
+            "productId": "P007",
+            "retailerId": "R007",
+            "quantity": 80,
+            "restockThreshold": 20,
+            "lastRestocked": "2023-10-30T00:00:00Z"
+          },
+          {
+            "_id": "ST008",
+            "productId": "P008",
+            "retailerId": "R008",
+            "quantity": 25,
+            "restockThreshold": 5,
+            "lastRestocked": "2023-11-04T00:00:00Z"
+          },
+          {
+            "_id": "ST009",
+            "productId": "P009",
+            "retailerId": "R009",
+            "quantity": 35,
+            "restockThreshold": 10,
+            "lastRestocked": "2023-12-09T00:00:00Z"
+          },
+          {
+            "_id": "ST010",
+            "productId": "P010",
+            "retailerId": "R010",
+            "quantity": 45,
+            "restockThreshold": 15,
+            "lastRestocked": "2024-01-14T00:00:00Z"
+          }
+        ],
+        "deliveries": [
+          {
+            "_id": "D001",
+            "supplierId": "S001",
+            "retailerId": "R001",
+            "products": [
+              { "productId": "P001", "quantity": 50, "productName": "Organic Apples" },
+              { "productId": "P003", "quantity": 20, "productName": "Free Range Eggs" }
+            ],
+            "deliveryDate": "2023-04-15T00:00:00Z",
+            "deliveryStatus": "Delivered"
+          },
+          {
+            "_id": "D002",
+            "supplierId": "S002",
+            "retailerId": "R002",
+            "products": [
+              { "productId": "P002", "quantity": 30, "productName": "Whole Wheat Bread" },
+              { "productId": "P009", "quantity": 15, "productName": "Greek Yogurt" }
+            ],
+            "deliveryDate": "2023-05-18T00:00:00Z",
+            "deliveryStatus": "Pending"
+          },
+          {
+            "_id": "D003",
+            "supplierId": "S003",
+            "retailerId": "R003",
+            "products": [
+              { "productId": "P003", "quantity": 40, "productName": "Free Range Eggs" },
+              { "productId": "P006", "quantity": 25, "productName": "Cheddar Cheese" }
+            ],
+            "deliveryDate": "2023-06-22T00:00:00Z",
+            "deliveryStatus": "Delivered"
+          },
+          {
+            "_id": "D004",
+            "supplierId": "S004",
+            "retailerId": "R004",
+            "products": [
+              { "productId": "P004", "quantity": 60, "productName": "Almond Milk" },
+              { "productId": "P008", "quantity": 20, "productName": "Orange Juice" }
+            ],
+            "deliveryDate": "2023-07-25T00:00:00Z",
+            "deliveryStatus": "Delivered"
+          },
+          {
+            "_id": "D005",
+            "supplierId": "S005",
+            "retailerId": "R005",
+            "products": [
+              { "productId": "P005", "quantity": 35, "productName": "Broccoli" },
+              { "productId": "P010", "quantity": 10, "productName": "Salmon Fillet" }
+            ],
+            "deliveryDate": "2023-08-30T00:00:00Z",
+            "deliveryStatus": "Pending"
+          },
+          {
+            "_id": "D006",
+            "supplierId": "S006",
+            "retailerId": "R006",
+            "products": [
+              { "productId": "P006", "quantity": 50, "productName": "Cheddar Cheese" },
+              { "productId": "P007", "quantity": 30, "productName": "Chicken Breast" }
+            ],
+            "deliveryDate": "2023-09-10T00:00:00Z",
+            "deliveryStatus": "Delivered"
+          },
+          {
+            "_id": "D007",
+            "supplierId": "S007",
+            "retailerId": "R007",
+            "products": [
+              { "productId": "P007", "quantity": 70, "productName": "Chicken Breast" },
+              { "productId": "P001", "quantity": 40, "productName": "Organic Apples" }
+            ],
+            "deliveryDate": "2023-10-15T00:00:00Z",
+            "deliveryStatus": "Pending"
+          },
+          {
+            "_id": "D008",
+            "supplierId": "S008",
+            "retailerId": "R008",
+            "products": [
+              { "productId": "P008", "quantity": 25, "productName": "Orange Juice" },
+              { "productId": "P003", "quantity": 30, "productName": "Free Range Eggs" }
+            ],
+            "deliveryDate": "2023-11-20T00:00:00Z",
+            "deliveryStatus": "Delivered"
+          },
+          {
+            "_id": "D009",
+            "supplierId": "S009",
+            "retailerId": "R009",
+            "products": [
+              { "productId": "P009", "quantity": 45, "productName": "Greek Yogurt" },
+              { "productId": "P002", "quantity": 20, "productName": "Whole Wheat Bread" }
+            ],
+            "deliveryDate": "2023-12-05T00:00:00Z",
+            "deliveryStatus": "Pending"
+          },
+          {
+            "_id": "D010",
+            "supplierId": "S010",
+            "retailerId": "R010",
+            "products": [
+              { "productId": "P010", "quantity": 55, "productName": "Salmon Fillet" },
+              { "productId": "P005", "quantity": 15, "productName": "Broccoli" }
+            ],
+            "deliveryDate": "2024-01-18T00:00:00Z",
+            "deliveryStatus": "Delivered"
+          }
+        ],
+        "useraccount": [
+          {
+            "_id": "UA001",
+            "username": "john_doe",
+            "email": "john.doe@gmail.com",
+            "password": "JohnDoe#2023!",
+            "role": "customer",
+            "customerId": "C001"
+          },
+          {
+            "_id": "UA002",
+            "username": "jane_smith",
+            "email": "jane.smith@yahoo.com",
+            "password": "JaneSmith#2023!",
+            "role": "customer",
+            "customerId": "C002"
+          },
+          {
+            "_id": "UA003",
+            "username": "emily_johnson",
+            "email": "emily.johnson@hotmail.com",
+            "password": "EmilyJohnson#2023!",
+            "role": "customer",
+            "customerId": "C003"
+          },
+          {
+            "_id": "UA004",
+            "username": "michael_brown",
+            "email": "michael.brown@gmail.com",
+            "password": "MichaelBrown#2023!",
+            "role": "customer",
+            "customerId": "C004"
+          },
+          {
+            "_id": "UA005",
+            "username": "sarah_davis",
+            "email": "sarah.davis@gmail.com",
+            "password": "SarahDavis#2023!",
+            "role": "customer",
+            "customerId": "C005"
+          },
+          {
+            "_id": "UA006",
+            "username": "david_wilson",
+            "email": "david.wilson@yahoo.com",
+            "password": "DavidWilson#2023!",
+            "role": "customer",
+            "customerId": "C006"
+          },
+          {
+            "_id": "UA007",
+            "username": "laura_taylor",
+            "email": "laura.taylor@hotmail.com",
+            "password": "LauraTaylor#2023!",
+            "role": "customer",
+            "customerId": "C007"
+          },
+          {
+            "_id": "UA008",
+            "username": "robert_evans",
+            "email": "robert.evans@gmail.com",
+            "password": "RobertEvans#2023!",
+            "role": "customer",
+            "customerId": "C008"
+          },
+          {
+            "_id": "UA009",
+            "username": "emma_thomas",
+            "email": "emma.thomas@gmail.com",
+            "password": "EmmaThomas#2023!",
+            "role": "customer",
+            "customerId": "C009"
+          },
+          {
+            "_id": "UA010",
+            "username": "william_harris",
+            "email": "william.harris@yahoo.com",
+            "password": "WilliamHarris#2023!",
+            "role": "customer",
+            "customerId": "C010"
+          }
+        ]
+      }
+      
+  
